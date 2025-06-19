@@ -1,0 +1,25 @@
+// should this rather be builtin?
+generator to_string for flags {
+  CTemplate ```
+  const str8 to_string(Arena* arena, const `type_name` f) {
+    const str8_builder b;
+    `for i in (values) ```if(f & `i`) {
+      b.append("`i`");
+      b.append(" |");
+    }``` `
+    if (b.length > 2) {b.drop(2);}
+    return b.build();
+  }
+
+
+  ```
+
+}
+
+CameraState := flags {
+  MovingLeft
+}
+
+generate(CameraState, to_string);
+
+

@@ -1,0 +1,11 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/datagen.dir/src/datagen.cpp.o: dyndep
+
+build CMakeFiles/datagen.dir/src/core/base.cpp.o: dyndep
+
+build CMakeFiles/datagen.dir/src/core/arena.cpp.o: dyndep
+
+build CMakeFiles/datagen.dir/src/core/string.cpp.o: dyndep
+
+build CMakeFiles/datagen.dir/src/os/linux/memory.cpp.o: dyndep
+

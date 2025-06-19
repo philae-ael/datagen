@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/eli/projects/datagen/build/debug/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

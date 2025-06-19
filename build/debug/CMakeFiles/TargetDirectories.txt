@@ -1,0 +1,3 @@
+/home/eli/projects/datagen/build/debug/CMakeFiles/datagen.dir
+/home/eli/projects/datagen/build/debug/CMakeFiles/edit_cache.dir
+/home/eli/projects/datagen/build/debug/CMakeFiles/rebuild_cache.dir
